@@ -1,24 +1,21 @@
 # Gerador de XMBML para PS3
 
-Este é um aplicativo web desenvolvido em Node.js e Express que permite gerar snippets de código XMBML para PlayStation 3, baseado em exemplos de arquivos XML. O XMBML é utilizado para criar menus personalizados no PS3.
+Este é um aplicativo web desenvolvido em Node.js e Express que permite gerar snippets de código XMBML para XMB do PlayStation 3
 
 ## Funcionalidades
 
-- Gerar snippets de código XMBML para menus do PS3
-- Criar menus com múltiplos itens e links
-- Personalizar IDs, caminhos de imagens, títulos e descrições
-- Opção de gerar apenas o menu principal, apenas menus de links ou ambos
-- Interface responsiva e amigável
-- Copiar o código gerado com um clique
+- Gerar snippets de código XMBML para XMB do PS3
+- Preview em tempo real
+- Highlight de Sintaxe
 
 ## Requisitos
 
-- Node.js 12.x ou superior
-- npm (geralmente vem com o Node.js)
-
+- Node.js
+- npm
+  
 ## Instalação
 
-1. Clone este repositório ou baixe os arquivos
+1. Clone este repositório
 2. Navegue até a pasta do projeto pelo terminal
 3. Execute o comando para instalar as dependências:
 
@@ -35,25 +32,6 @@ npm start
 ```
 
 2. Acesse o aplicativo no navegador em: http://localhost:3000
-
-3. Preencha os campos conforme necessário:
-   - ID da View Principal
-   - Tipo de Menu a Gerar
-   - Adicione itens com o botão "Adicionar Item"
-   - Para cada item, adicione links com o botão "Adicionar Link"
-
-4. Clique em "Gerar XMBML" para criar o snippet de código
-
-5. O código será exibido na tela e você pode copiá-lo clicando no botão "Copiar"
-
-## Estrutura XMBML
-
-O XMBML utiliza uma estrutura XML específica:
-
-- Cada menu é uma `<View>`
-- Uma View contém:
-  - `<Attributes>`: tabelas com pares de chave/valor
-  - `<Items>`: itens que usam as tabelas definidas em Attributes
 
 ### Exemplo da estrutura:
 
@@ -83,4 +61,4 @@ O XMBML utiliza uma estrutura XML específica:
 
 ## Licença
 
-Este projeto é disponibilizado sob a licença MIT. 
+Open Source
