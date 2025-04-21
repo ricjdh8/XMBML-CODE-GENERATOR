@@ -1,0 +1,15 @@
+<XMBML version="1.0">
+    <View id="NOME DA VIEW_items">
+        <Attributes>
+            <Table key="psnstuff_us_item_INDICE DO JOGO">
+                <Pair key="icon"><String>CAMINHO DA IMAGEM DO JOGO</String></Pair>
+                <Pair key="title"><String>Nome do Jogo</String></Pair>
+                <Pair key="info"><String>ID DO JOGO - FORMATO DO JOGO - TAMANHO DO JOGO</String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Query class="type:x-xmb/folder-pixmap" key="psnstuff_us_item_INDICE DO JOGO" attr="psnstuff_us_item_INDICE DO JOGO" src="#psnstuff_us_item_INDICE DO JOGO_link"/>
+            </Items>
+    </View>
+</XMBML>

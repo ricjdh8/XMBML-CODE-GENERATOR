@@ -1,0 +1,24 @@
+<XMBML version="1.0">
+    <View id="psnstuff_us_item_INDICE DO JOGO_link">
+        <Attributes>
+            <Table key="psnstuff_us_item_INDICE DO JOGO">
+                <Pair key="icon"><String>CAMINHO DA IMAGEM DO JOGO</String></Pair>
+                <Pair key="title"><String>Baixar jogo</String></Pair>
+                <Pair key="info"><String>DESCRIÇÃO DE DOWNLOAD 1</String></Pair>
+                <Pair key="module_name"><String>webrender_plugin</String></Pair>
+                <Pair key="module_action"><String>LINK 1 DO JOGO</String></Pair>
+            </Table>
+            <Table key="psnstuff_us_item_INDICE DO JOGO_1">
+                <Pair key="icon"><String>CAMINHO DA IMAGEM DO JOGO</String></Pair>
+                <Pair key="title"><String>Baixar jogo (Servidor dedicado)</String></Pair>
+                <Pair key="info"><String>DESCRIÇÃO DE DOWNLOAD 2</String></Pair>
+                <Pair key="module_name"><String>webrender_plugin</String></Pair>
+                <Pair key="module_action"><String>LINK 2 DO JOGO</String></Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Item class="type:x-xmb/module-action" key="psnstuff_us_item_INDICE DO JOGO" attr="psnstuff_us_item_INDICE DO JOGO"/>
+            <Item class="type:x-xmb/module-action" key="psnstuff_us_item_INDICE DO JOGO_1" attr="psnstuff_us_item_INDICE DO JOGO_1"/>
+        </Items>
+    </View>
+</XMBML>
